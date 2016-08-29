@@ -1,0 +1,7 @@
+img = imread('saturn.png');
+imshow(img)
+pause
+
+noise = randn(size(img));
+output = double(img) + noise;
+imshow(output);
