@@ -1,0 +1,2 @@
+load noisysig.mat
+figure;
